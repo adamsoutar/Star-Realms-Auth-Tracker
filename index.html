@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Star Realms Authority Tracker</title>
+  <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+  <script src='starRealmsTracker.js'></script>
+  <link rel='stylesheet' href='starRealmsTracker.css'>
+</head>
+<body>
+  <div id='authContainer'>
+  </div>
+
+  <div class='buttonContainer'>
+    <div class='authButton' onclick='changeAuthority(5);'>+ 5</div>
+    <div class='authButton' onclick='changeAuthority(1);'>+ 1</div>
+    <div class='authButton' onclick='changeAuthority(-1);'>- 1</div>
+    <div class='authButton' onclick='changeAuthority(-5);'>- 5</div>
+  </div>
+</body>
+</html>
